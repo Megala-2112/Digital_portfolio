@@ -6,71 +6,61 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #ff1744;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
         }
         .header {
-            background-color: #a6d608;
-            color: white;
-            text-align: center;
+            background-color: #b2ff59;
             padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .sub-header {
             text-align: center;
-            color: #fff;
-            font-size: 18px;
+        }
+        .header h1 {
+            margin: 0;
         }
         .nav {
-            background-color: #c70039;
+            background-color: #d50000;
             padding: 10px;
             text-align: center;
         }
         .nav a {
             color: white;
-            margin: 0 15px;
             text-decoration: none;
-            font-size: 16px;
+            padding: 10px 20px;
+            display: inline-block;
         }
         .container {
             max-width: 800px;
-            margin: 20px auto;
-            background: white;
+            margin: auto;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 10px;
         }
-        h2 {
-            border-bottom: 2px solid #c70039;
-            padding-bottom: 5px;
-            color: #333;
+        .section {
+            margin-bottom: 20px;
         }
         .resume-btn {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .resume-btn a {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .footer {
-            text-align: center;
+            display: block;
+            width: 150px;
+            margin: auto;
             padding: 10px;
-            background: #c70039;
+            background-color: #000;
             color: white;
-            margin-top: 20px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .resume-btn:hover {
+            background-color: #333;
         }
     </style>
 </head>
 <body>
 
-    <div class="header">Megala P</div>
-    <div class="sub-header">BCA Student</div>
+    <div class="header">
+        <h1>Megala P</h1>
+        <p>BCA Student</p>
+    </div>
 
     <div class="nav">
         <a href="#about">About</a>
@@ -80,42 +70,44 @@
         <a href="#resume">Resume</a>
     </div>
 
-    <div class="container" id="about">
-        <h2>About Me</h2>
-        <p>Currently, I am pursuing a BCA degree.</p>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Currently, I am pursuing a BCA degree.</p>
+        </div>
+
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <p>Madras University, BCA</p>
+        </div>
+
+        <div id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Data Structures</li>
+            </ul>
+        </div>
+
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Number Guessing Game Program</li>
+            </ul>
+        </div>
+
+        <div id="resume" class="section">
+            <h2>Resume</h2>
+            <a href="resume.pdf" class="resume-btn" download>Download CV</a>
+        </div>
     </div>
 
-    <div class="container" id="education">
-        <h2>Education</h2>
-        <p><strong>Madras University</strong> - BCA</p>
-    </div>
-
-    <div class="container" id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C++</li>
-        </ul>
-    </div>
-
-    <div class="container" id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Number Guessing Game Program</li>
-        </ul>
-    </div>
-
-    <div class="container resume-btn" id="resume">
-        <h2>Resume</h2>
-        <a href="#" download>Download CV</a>
-    </div>
-
-    <div class="footer">
-        © 2024 Megala P
-    </div>
+    <footer style="text-align:center; padding:10px; background:#000; color:white;">
+        © 2025 Megala P
+    </footer>
 
 </body>
 </html>
-
 
