@@ -1,6 +1,3 @@
-Here is the HTML code for your portfolio based on the details you provided:
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -121,16 +118,4 @@ Here is the HTML code for your portfolio based on the details you provided:
 </body>
 </html>
 
-How to Use:
 
-1. Copy the above code into a file named index.html.
-
-
-2. Open it in a web browser to view your portfolio.
-
-
-3. If you have a resume file, replace # in the resume section with the actual link to your CV.
-
-
-
-Let me know if you need any modifications!
